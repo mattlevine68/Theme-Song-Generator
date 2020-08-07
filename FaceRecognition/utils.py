@@ -8,7 +8,8 @@ from PIL import Image
 import pickle
 
 def authorize():
-    auth_manager = SpotifyClientCredentials(client_id='a112aa48ef534bbcafb9baba352d9f67', client_secret='b86043b0686f454b9f53e70e6ba72e7e')
+    #Please put your own client ID and client secret from the Spotify API
+    auth_manager = SpotifyClientCredentials(client_id='', client_secret='')
     sp = spotipy.Spotify(auth_manager=auth_manager)
     pass
 
